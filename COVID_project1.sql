@@ -1,3 +1,12 @@
+-- COVID PROJECT: DEPICTING DIFFERENT FIGURES (FROM COVID INFECTION CONTRACTION TO DEATHS IN THE US AND WORLDWIDE)
+
+-- Data Sources:  1. https://ourworldindata.org/
+                  2. https://github.com/owid/covid-19-data/tree/master/public/data
+
+-- Downloaded information was edited, cleaned, and processed in Excel into different data CSV file sets
+
+-- The following queries were uploaded and run in BigQuery Sandbox
+
 SELECT *
 FROM sql-practice-407916.COVID.deaths
 WHERE continent IS NOT NULL
