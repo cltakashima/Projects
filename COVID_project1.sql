@@ -3,9 +3,11 @@
 -- Data Sources:  1. https://ourworldindata.org/
                   2. https://github.com/owid/covid-19-data/tree/master/public/data
 
--- Downloaded information was edited, cleaned, and processed in Excel into different data CSV file sets
+-- The data was downloaded Jan 8, 2024
+                    
+-- Downloaded information was edited, cleaned, and processed in Excel into different data CSV file sets, then uploaded to BigQuery Sandbox
 
--- The following queries were uploaded and run in BigQuery Sandbox
+-- The following queries were run in BigQuery Sandbox to explore the data.
 
 SELECT *
 FROM sql-practice-407916.COVID.deaths
