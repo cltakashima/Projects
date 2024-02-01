@@ -1,5 +1,7 @@
 /*The company is a mock company using real-world data using W3 Schools Database
 
+https://coursera.w3schools.com/sql/trysql.asp?filename=trysql_select_all
+
 The company wanted to compensate the 5 top sales team performers
 
 I used SQL to:
